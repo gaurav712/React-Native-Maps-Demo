@@ -7,7 +7,7 @@ import Toggles from "./components/Toggles";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
-  const [showSuggestions, setShowSuggestions] = useState(true);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const [mapRegion, setMapRegion] = useState({
     latitude: 37.78825,
     longitude: -122.4324,
