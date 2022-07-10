@@ -82,7 +82,7 @@ const Search = ({
               <Text
                 style={{
                   ...styles.seachEntryText,
-                  color: darkMode ? "#fff" : "#eee",
+                  color: darkMode ? "#fff" : "#000",
                 }}
               >
                 {elem}
