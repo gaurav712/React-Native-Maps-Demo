@@ -78,7 +78,14 @@ const Search = ({
                 });
               }}
             >
-              <Text style={styles.seachEntryText}>{elem}</Text>
+              <Text
+                style={{
+                  ...styles.seachEntryText,
+                  color: darkMode ? "#fff" : "#eee",
+                }}
+              >
+                {elem}
+              </Text>
             </TouchableOpacity>
           ))}
         </View>
