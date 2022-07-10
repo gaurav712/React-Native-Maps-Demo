@@ -65,6 +65,7 @@ const Search = ({
         >
           {matches.map((elem) => (
             <TouchableOpacity
+              key={elem}
               style={styles.seachEntries}
               onPress={() => {
                 setQuery(elem);
